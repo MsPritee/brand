@@ -1,0 +1,32 @@
+
+
+.scroll-container {
+    overflow-x: hidden;
+    /* overflow-x: scroll; */
+
+    white-space: nowrap;
+}
+
+.scroll-content {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    animation: scrollAnimation linear infinite ;
+
+}
+
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    
+    50% {
+        transform: translateX(-50%);
+    }
+
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

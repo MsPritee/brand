@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+
+.webpage {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.first {
+    background-color: rgb(91, 215, 232);
+}
+
+.second {
+    background-color: rgb(255, 0, 127);
+}
+
+.third {
+    background-color: rgb(242, 218, 251);
+}
+
+.fourth {
+    background-color: rgb(243, 209, 59);
+}
+
+.fifth {
+    background-color: #4700ff;
+}
+
+.avtar {
+    width: 120px;
+    height: 120px;
+    left: -2px;
+    font-weight: bold;
+}
+
+.avtar-txt {
+    width: 100px;
+    height: 50px;
+    left: 3px;
+    text-transform: uppercase;
+    font-family: 'Nothing You Could Do', 'Yatra One';
+}
+
+.main-txt-1 {
+
+    font-weight: 900;
+    font-size: 90px;
+    text-transform: uppercase;
+
+    /* line-height: 80px; */
+
+    position: absolute;
+    /* text-align: center; */
+    rotate: -1.52deg;
+    font-family: 'Rubik', cursive;
+}
+
+.text-1 {
+    color: #4700ff;
+
+}
+
+.brd-power {
+    color: #3e14aa;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+.down {
+    margin-left: 470px;
+    top: 10px;
+    margin-top: 30px;
+    height: 90%;
+}
+
+.down1 {
+    margin-left: 580px;
+    top: 10px;
+    margin-top: 10px;
+    height: 80%;
+    width: 40%;
+}
+
+.down2 {
+    height: 120%;
+    /* width: 50%; */
+    margin-left: 450px;
+    top: 0;
+    padding-bottom: 50px;
+}
+
+.text-2 {
+    color: white;
+    font-weight: 900;
+    font-size: 130px;
+    margin-left: 40px;
+
+
+    --background-color: #ff007f;
+    --x-offset: -0.0350em;
+    --y-offset: -0.0350em;
+    --stroke: -0.0010em + -0.028em;
+    --stroke-color: #4700ff;
+
+    text-shadow:
+
+        var(--x-offset) var(--y-offset) 0px var(--background-color),
+
+        calc(var(--x-offset) - var(--stroke)) calc(var(--y-offset) + var(--stroke)) 0px var(--stroke-color);
+}
+
+.text-3 {
+    color: #ff007f;
+    margin-left: 30px;
+}
+
+.middle-main {
+    right: 10px;
+}
+
+.border {
+    text-transform: uppercase;
+}
+
+.sidebar,
+.right-main {
+    border-left: #ff007f 3px solid;
+    /* border-bottom: #ff007f 3px solid; */
+    min-height: 110vh;
+    height: 100%;
+    width: 80px;
+}
+
+.sidebar-txt {
+    border-bottom: #ff007f solid 3px;
+
+}
+
+.box1,
+.next-btn {
+    cursor: pointer;
+    ;
+}
+
+.box1:active {
+    border: solid 3px #4700FF;
+}
+
+.box1:hover {
+    border: solid 3px #4700FF;
+}
+
+
+.next-btn {
+    background-color: #4700FF;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/* Second */
+
+.sec-slides {
+    height: 500px;
+}
+
+.know-mor-btn {
+    background-color: #F3CB3B;
+    height: 68px;
+    width: 329px;
+    margin-bottom: 45px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+
+/* Third */
+
+.text--3 {
+    color: white;
+    font-weight: 800;
+    font-size: 70px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    --background-color: #4700ff;
+    --x-offset: -0.0950em;
+    --y-offset: -0.0190em;
+    --stroke: -0.0010em + -0.028em;
+    --stroke-color: #4700ff;
+
+    text-shadow:
+        var(--x-offset) var(--y-offset) 0px var(--background-color),
+
+        calc(var(--x-offset) - var(--stroke)) calc(var(--y-offset) + var(--stroke)) 0px var(--stroke-color);
+}
+
+
+
+/* Fourth */
+
+.text-4 {
+    color: #4700ff;
+    font-weight: 800;
+    font-size: 70px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    --background-color: white;
+    --x-offset: -0.0950em;
+    --y-offset: -0.0190em;
+    --stroke: -0.0010em + -0.028em;
+    --stroke-color: #F3CB3B;
+
+    text-shadow:
+        var(--x-offset) var(--y-offset) 0px var(--background-color),
+
+        calc(var(--x-offset) - var(--stroke)) calc(var(--y-offset) + var(--stroke)) 0px var(--stroke-color);
+}
+
+.circle {
+    animation: rotate 2s infinite linear;
+    height: 192px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.arrow {
+    animation: angle 1s infinite linear;
+}
+
+@keyframes angle {
+    0% {
+        transform: rotate(-20deg);
+    }
+
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(20deg);
+    }
+
+    75% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-20deg);
+    }
+}
+
+/* Fifith */
+.fiveS2 {
+    margin: 0 auto;
+}
